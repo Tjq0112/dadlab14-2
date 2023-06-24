@@ -18,7 +18,7 @@ public class TCPCustomerServerApp1 {
 		
 		CustomerDataManager manager = new CustomerDataManager();
 		
-		System.out.println("\n\tExecuting TCPCustomerServerApp");
+		System.out.println("\n\tExecuting TCPCustomerServerApp1");
 		
 		try {
 			

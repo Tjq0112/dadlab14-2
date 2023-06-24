@@ -15,7 +15,7 @@ public class TCPCustomerClientApp1 {
 		
 		try {
 			
-			System.out.println("\tExecuting TCPCustomerClientApp");
+			System.out.println("\tExecuting TCPCustomerClientApp1");
 		
 			// Server information
 			int serverPortNo = 8090;
