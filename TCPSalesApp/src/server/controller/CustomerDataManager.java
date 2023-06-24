@@ -44,9 +44,9 @@ public class CustomerDataManager {
 		
 		// Find a customer
 		for (Customer customer:customers) {
-			
-			int found = stringCompare(customer.getName(),name);
-			if (found == 0)
+			// TODO Auto-generated method stub
+			boolean found = name.equals(customer.getName());
+			if (found == true)
 				return customer;
 		}
 		
@@ -58,10 +58,10 @@ public class CustomerDataManager {
 		
 	}
 	
-	private int stringCompare(String name, String name2) {
+	/*private int stringCompare(String name, String name2) {
 		// TODO Auto-generated method stub
 		return 0;
-	}
+	}*/
 
 	/**
 	 * Method 3
